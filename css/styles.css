@@ -1,0 +1,271 @@
+/*FONTS*/
+@font-face {
+  font-family: "Gotham";
+  src: url("../fonts/gotham-bold.ttf")  format("truetype");
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Gotham";
+  src: url("../fonts/gotham-medium.ttf")  format("truetype");
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Gotham";
+  src: url("../fonts/gotham-regular.ttf")  format("truetype");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Gotham";
+  src: url("../fonts/gotham-light.ttf")  format("truetype");
+  font-weight: 300;
+  font-style: normal;
+}
+
+/*font-family: "Roboto", Verdana, sans-serif;*/
+/*font-family: "Gotham", Verdana, sans-serif;*/
+
+/*COMMON*/
+
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 1460px;
+  margin: auto;
+  padding: 0 80px;
+}
+
+.title-side {
+  position: absolute;
+  top: 35px;
+  left: -78px;
+
+  margin: 0;
+
+  transform: rotate(-90deg);
+}
+
+/*HEADER*/
+
+.header-main-wrapper {
+  min-width: 1460px;
+  background-color: #f2ebe6;
+}
+
+.header-main {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding-top: 85px;
+  padding-bottom: 200px;
+}
+
+.logo-header {
+  color: #303437;
+  font-family: "Roboto", Verdana, sans-serif;
+  font-size: 48px;
+  line-height: 24px;
+  font-weight: 300;
+}
+
+.header-nav {
+  list-style: none;
+}
+
+.header-nav li {
+  display: inline-block;
+}
+
+.header-nav li:not(:last-child) {
+  margin-right: 25px;
+}
+
+.header-nav a {
+  color: #212121;
+  font-family: "Gotham", Verdana, sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 24px;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+.header-main .cart {
+  color: #212121;
+  font-family: "Gotham", Verdana, sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 24px;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+/*OFFER-MAIN*/
+
+.offer-main-wrapper {
+  min-width: 1460px;
+  min-height: 625px;
+  background-color: #f2ebe6;
+}
+
+.offer-main {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.offer-main-list {
+  list-style: none;
+}
+
+.offer-main-list li {
+  display: inline-block;
+}
+
+/*SPECIAL-OFFERS*/
+
+.special-offers {
+  position: relative;
+  height: 920px;
+  margin-top: -100px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.features-list {
+  width: 744px;
+  min-height: 250px;
+  margin: 0;
+  padding: 0;
+  border: 1px solid #a77c5a;
+
+  list-style: none;
+}
+
+.features-list li {
+  display: inline-block;
+
+}
+
+.features-list a {
+  color: #a77c5a;
+  font-family: "Gotham", Verdana, sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 55px;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+.features-list span {
+  font-family: "Myriad Pro";
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 36px;
+}
+
+/*BEST-SELLERS*/
+
+.best-sellers {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+/*NEW-AVAILABLE*/
+
+.new-available {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+/*BRANDS*/
+
+.brands-wrapper {
+  min-width: 1460px;
+
+  background-color: #e5e5e5;
+}
+
+.brands-list {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+
+  list-style: none;
+}
+
+/*ARTICLES*/
+
+.articles-list {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+
+  list-style: none;
+}
+
+.articles-list li {
+  width: 400px;
+  height: 400px;
+}
+
+/*NEWSLETTER*/
+
+.newsletter {
+  text-align: center;
+}
+
+/*FOOTER*/
+
+.footer-main-wrapper {
+  min-width: 1460px;
+
+  background-color: #f2ebe6;
+}
+
+.footer-main {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.footer-list {
+  height: 305px;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+
+  list-style: none;
+}
+
+.footer-bottom {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.footer-logo {
+  margin-right: auto;
+}
